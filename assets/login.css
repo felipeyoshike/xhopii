@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fb4e0f;
+}
+
+#navbar {
+  height: 80px;
+  padding: 0 300px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #f4f3f3;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+}
+
+#logo img {
+  height: 70px;
+}
+
+#nome-logo {
+  color: #fb4e0f;
+  padding-right: 30px;
+}
+
+.texto-laranja {
+  color: #fb4e0f;
+}
+
+main {
+  height: 100vh;
+}
+
+footer {
+  padding-top: 60px;
+  background-color: #f4f3f3;
+}
+
+footer section {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  padding-bottom: 60px;
+}
+
+footer h3 {
+  padding-bottom: 35px;
+  text-transform: uppercase;
+}
+
+footer p {
+  color: #696969;
+  padding-bottom: 9px;
+}
+
+footer hr {
+  width: 77%;
+  margin: 0 auto;
+}
+
+#direitos {
+  padding: 20px 0;
+  text-align: center;
+}
+
+#formas-pagamento {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+#formas-pagamento img {
+  width: 50px;
+}
+
+.redes-sociais {
+  display: flex;
+  
+}
+
+.redes-sociais img {
+  width: 25px;
+  margin-right: 10px;
+}
+
+#siga-nos div {
+  padding-bottom: 10px;
+}
+
+#atendimento img {
+  width: 100px;
+  padding-bottom: 10px;
+}
