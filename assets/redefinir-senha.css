@@ -1,7 +1,3 @@
-body {
-  background-color: #fb4e0f;
-}
-
 #navbar {
   height: 80px;
   padding: 0 300px;
@@ -36,9 +32,11 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 #login {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,9 +44,10 @@ main {
     gap: 30px;
     background-color: #fdfafa;
     width: 500px;
-    height: 600px;
+    height: 300px;
     padding: 40px;
     border-radius: 7px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
 }
 
 input {
@@ -70,51 +69,13 @@ button:hover {
   cursor: pointer;
 }
 
-#links-login {
-  display: flex;
-  gap: 40px;
-  justify-content: space-between;
+
+#seta {
+    position: absolute;
+    top: 15px;
+    left: 15px;
 }
 
-#links-login a {
-  text-decoration: none;
-}
-
-#ou {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    width: 350px;
-}
-
-#ou hr {
-    flex: 1;
-    border-top: 1px solid #d3d3d3;
-}
-
-#botoes-login {
-  display: flex;
-  justify-content: space-between;
-  width: 350px;
-}
-
-.botao-login {
-  display: flex;
-  border-radius: 5px;
-  padding: 8px;
-  gap: 10px;
-  border: 1px solid #b5b4b4;
-}
-
-.botao-login img {
-  width: 20px;
-}
-
-#novo p {
-  color: #b5b4b4;
-}
-
-#novo a {
-  color: #f56e3e;
-  text-decoration: none;
+#seta img {
+    width: 20px;
 }
