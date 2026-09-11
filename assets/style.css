@@ -68,3 +68,151 @@ footer hr {
   width: 100px;
   padding-bottom: 10px;
 }
+
+.header-logo{
+    background-color: #EE4D2D;
+    display: flex;
+    height: 60px;
+    padding: 30px;
+}
+
+.header-logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.header-logo{
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo div {
+    display: flex;
+    align-items: center;
+}
+
+#link-sair{
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 6px 8px;
+    border-radius: 5px;
+}
+
+#link-sair:hover{
+    background-color: white;
+    color: #EE4D2D;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu{
+    background-color: #F37023;
+    height: 40px;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.menu ul a{
+    height: 100%;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    transition: 0.3s;
+}
+
+.menu li{
+    list-style: none;
+    height: 100%;
+    padding: 0px 15px;
+    transition: 0.5s;
+}
+
+.menu li:hover{
+    background-color: white;
+}
+
+.menu a:hover{
+    color: #EE4D2D;
+}
+
+.formulario{
+    background-color: #BFBFBF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3% 0%;
+}
+
+.conteudo-formulario{
+    width: 600px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 4px;
+}
+
+.conteudo-formulario h3 {
+    color: #EE4D2D;
+    margin-bottom: 15px;
+    width: 350px;
+    text-align: left;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 350px;
+    height: 40px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+}
+
+input:hover{
+    border:1px solid #EE4D2D;
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid #EE4D2D;
+}
+
+form p {
+    color: #EE4D2D;
+    margin-bottom: 15px;
+}
+
+.input-foto:hover{
+    border: none;
+}
+
+.input-foto::file-selector-button{
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid #EE4D2D;
+    padding: 6px 14px;
+    color: #EE4D2D;
+    margin-right: 15px;
+}
+
+form button{
+    background-color: #EE4D2D;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 350px;
+}
+
+form button:hover {
+    background-color: #F37023;
+}

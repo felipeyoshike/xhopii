@@ -1,0 +1,8 @@
+.menu li:nth-child(2){
+    background-color: white;
+}
+
+.menu li:nth-child(2) a{
+    color: #EE4D2D;
+}
+
