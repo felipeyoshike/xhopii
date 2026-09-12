@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/style.css">
+    <link rel="stylesheet" href="../assets/interface-produto.css">
+    <title>Interface de Produto</title>
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <div>
+                <img src="../assets/img/logo.png" alt="Logo Xhopii" class="logo">
+                <h1>Xhopii</h1>
+            </div>
+            <a href="/index.html" id="link-sair">Sair</a>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="cadastro-cliente.html">Cadastro Cliente</a></li>
+                <li><a href="cadastro-funcionario.html">Cadastro Funcionário</a></li>
+                <li><a href="cadastro-produto.html">Cadastro Produto</a></li>
+                <li><a href="#">Ver Clientes</a></li>
+                <li><a href="#">Ver Funcionários</a></li>
+                <li><a href="#">Ver Produtos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="cores-camisa">
+            <img src="../assets/img/produto1.png" alt="camisa" onclick="selecionarImgProduto(this)">
+            <img src="../assets/img/produto2.png" alt="camisa" onclick="selecionarImgProduto(this)">
+            <img src="../assets/img/produto3.png" alt="camisa" onclick="selecionarImgProduto(this)">
+            <img src="../assets/img/produto4.png" alt="camisa" onclick="selecionarImgProduto(this)">
+            <img src="../assets/img/produto5.png" alt="camisa" onclick="selecionarImgProduto(this)">
+        </div>
+
+        <div class="camisa-principal">
+            <img id="imgPrincipal" src="../assets/img/produto1.png" alt="camisa">
+        </div>
+        
+        <div class="informacoes-camisa">
+            <h1>Camisa Desenvolvedor Front-End CSS</h1>
+            <p class="preco">R$ 56,90</p>
+            <p>171 peças disponíveis</p>
+            <p>Modelos:</p>
+            <div class="modelos">
+                <button id="btnPreto" onclick="mudarCamisa(this)">Preto</button>
+                <button id="btnAzul" onclick="mudarCamisa(this)">Azul</button>
+                <button id="btnVerde" onclick="mudarCamisa(this)">Verde</button>
+                <button id="btnCinza" onclick="mudarCamisa(this)">Cinza</button>
+                <button id="btnRosa" onclick="mudarCamisa(this)">Rosa</button>
+            </div>
+            <p>Tamanhos:</p>
+            <div class="tamanhos">
+                <button id="btnP" onclick="mudarTamanho(this)">P</button>
+                <button id="btnM" onclick="mudarTamanho(this)">M</button>
+                <button id="btnG" onclick="mudarTamanho(this)">G</button>
+                <button id="btnGG" onclick="mudarTamanho(this)">GG</button>
+            </div>
+            <p>Tamanho selecionado: <span id="tamanhoSelecionado">P</span></p>
+            <button id="comprar">Comprar Agora</button>
+        </div>
+        <script type="text/javascript" src="../assets/script.js"></script>
+    </main>
+</body>
+</html>

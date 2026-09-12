@@ -1,0 +1,81 @@
+main{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center
+}
+
+.cores-camisa{
+    display: flex;
+    flex-direction: column;
+}
+
+.cores-camisa img{
+    height: 100px;
+    width: 100px;
+    opacity: 0.5;
+    margin-bottom: 5px;
+}
+
+.cores-camisa img:hover{
+    opacity: 1;
+    border: 2px solid #EE4D2D;
+}
+
+.camisa-principal img{
+    padding: 0px 15px;
+    width: 650px;
+    height: auto;
+}
+
+.informacoes-camisa p{
+    margin-top: 10px;
+}
+
+.preco{
+    font-size: 25px;
+    font-weight: bold;
+    color: #EE4D2D;
+}
+
+.modelos{
+    display: flex;
+}
+
+.modelos button{
+    border: 1px solid #D3D3D3;
+    background-color: white;
+    padding: 7px;
+    margin: 10px;
+}
+
+.modelos button:hover{
+    border: 2px solid #EE4D2D;
+}
+
+.tamanhos{
+    display: flex;
+}
+
+.tamanhos button{
+    border: 1px solid #D3D3D3;
+    background-color: white;
+    padding: 7px;
+    margin: 10px;
+}
+
+.tamanhos button:hover{
+    border: 2px solid #EE4D2D;
+}
+
+#comprar{
+    width: 150px;
+    height: 60px;
+    color: white;
+    background-color: #EE4D2D;
+    border: none;
+    margin-top: 10px;
+}
+
+#comprar:hover{
+    background-color: #F37023;
+}
