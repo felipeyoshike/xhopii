@@ -1,3 +1,11 @@
+.menu li:nth-child(7){
+    background-color: #ffffff;
+}
+
+.menu li:nth-child(7) a{
+    color: #EE4D2D;
+}
+
 main{
     background-color: #BFBFBF;
     padding: 30px;
