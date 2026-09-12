@@ -1,0 +1,89 @@
+h1, h2, h3, h4, h5, h6,
+p, ul, ol, hr {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-titulo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.menu li:nth-child(1){
+    background-color: white;
+}
+
+.menu li:nth-child(1) a{
+    color: #EE4D2D;
+}
+
+main {
+  height: 130vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#ads {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+#ads img {
+  width: 100%;
+  height: 250px;
+}
+
+#cupom-img {
+  width: 150vh;
+  height: 130px;
+
+  padding: 20px 0;
+}
+
+#hr-laranja {
+  border: none;
+  border-top: 2px solid #f8ab9b;
+  opacity: 1;
+  width: 75%;
+  margin: 15px 0;
+}
+
+#container-produtos {
+  display: grid;
+  grid-template-columns: repeat(5, 250px);
+  justify-content: center;
+  padding-top: 20px;
+  gap: 20px;
+}
+
+.produto-camisa img {
+  width: 200px;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  display: block;
+}
+
+.produto-camisa {
+  width: 220px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  padding: 10px;
+  text-align: left;
+}
+
+.produto-camisa div {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.produto-camisa p {
+    font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

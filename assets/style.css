@@ -216,3 +216,11 @@ form button{
 form button:hover {
     background-color: #F37023;
 }
+
+.texto-laranja {
+  color: #fb4e0f;
+}
+
+.texto-cinza {
+  color: #9e9d9d;
+}
