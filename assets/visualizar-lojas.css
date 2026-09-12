@@ -1,0 +1,30 @@
+.menu li:nth-child(5){
+    background-color: #ffffff;
+}
+
+.menu li:nth-child(5) a{
+    color: #EE4D2D;
+}
+
+
+.card-conteudo{
+    background-color: white;
+    border-radius: 6px;
+    padding: 18px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-conteudo img {
+    width: 50px;
+    height: 50px; 
+}
+
+.categoria{
+  background: rgba(232, 73, 29, 0.12);
+  padding: 3px 10px;
+  border-radius: 10px;
+}
