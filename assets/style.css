@@ -224,3 +224,44 @@ form button:hover {
 .texto-cinza {
   color: #9e9d9d;
 }
+
+textarea{
+    width: 350px;
+    height: 100px;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea:hover{
+    border:1px solid #EE4D2D;
+}
+
+textarea:focus{
+    outline: none;
+    border: 2px solid #EE4D2D;
+}
+
+select{
+    width: 350px;
+    height: 40px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+}
+
+select:hover{
+    border:1px solid #EE4D2D;
+}
+
+select:focus{
+    outline: none;
+    border: 2px solid #EE4D2D;
+}
+
+.row2{
+    width: 350px;
+    height: 40px;
+    margin-bottom: 15px;
+    display: flex;
+    gap: 12px;
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/style.css">
+    <title>Cadastro Cupom de Desconto</title>
+</head>
+<body>
+
+    <header>
+        <div class="header-logo">
+            <div>
+                <img src="../assets/img/logo.png" alt="Logo Xhopii" class="logo">
+                <h1>Xhopii</h1>
+            </div>
+            <a href="/index.html" id="link-sair">Sair</a>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="cadastro-cliente.html">Cadastro Cliente</a></li>
+                <li><a href="#">Cadastro Funcionário</a></li>
+                <li><a href="cadastro-produto.html">Cadastro Produto</a></li>
+                <li><a href="#">Ver Clientes</a></li>
+                <li><a href="#">Ver Funcionários</a></li>
+                <li><a href="#">Ver Produtos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="formulario">
+        <div class="conteudo-formulario">
+            <form action="#" method="POST">
+                <h3>Cadastrar Cupom de Desconto</h3>
+                <input type="text" name="codigo" placeholder="Código do Cupom (ex: XHOPII10)">
+
+                <div class="row2">
+                    <select required>
+                        <option value="" disabled selected>Tipo de desconto</option>
+                        <option value="percentual">Percentual (%)</option>
+                        <option value="fixo">Valor fixo (R$)</option>
+                    </select>
+                    <input type="number" placeholder="Valor do desconto" required>
+                </div>
+
+                <input type="number" name="valor-minimo" placeholder="Valor mínimo de compra (R$)">
+
+                <div class="row2">
+                    <input type="date" name="data-inicio">
+                    <input type="date" name="data-fim">
+                </div>
+                <input type="number" name="quantidade" placeholder="Quantidade de usos disponíveis">
+                <select required>
+                        <option value="todos-produtos">Aplicável a todos os produtos</option>
+                        <option value="categoria-especifica">Aplicável a uma categoria específica</option>
+                    </select>
+                <button type="submit">CADASTRAR</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <section>
+            <div>
+                <h3 class="footer-titulo">Atendimento ao cliente</h3>
+                <p>Central de Ajuda</p>
+                <p>Como Comprar</p>
+                <p>Métodos de Pagamento</p>
+                <p>Garantia Xhopii</p>
+                <p>Devolução e Reembolso</p>
+                <p>Fele Conosco</p>
+                <p>Ouvidoria</p>
+            </div>
+
+            <div>
+                <h3 class="footer-titulo">Sobre a Xhopii</h3>
+                <p>Sobre Nós</p>
+                <p>Políticas Xhopii</p>
+                <p>Política de Privacidade</p>
+                <p>Programa de Aliados da Xhopii</p>
+                <p>Seja um Entregador Xhopii</p>
+                <p>Ofertas Relâmpago</p>
+                <p>Xhopii Blog</p>
+                <p>Impresa</p>
+            </div>
+
+            <div id="for">
+                <h3 class="footer-titulo">Pagamento</h3>
+                <div id="formas-pagamento">
+                    <img src="../assets/img/pix.png" alt="formas-pagamento">
+                    <img src="../assets/img/boleto.png" alt="formas-pagamento">
+                    <img src="../assets/img/americanexpress.png" alt="formas-pagamento">
+                    <img src="../assets/img/visa.png" alt="formas-pagamento">
+                    <img src="../assets/img/mastercard.png" alt="formas-pagamento">
+                    <img src="../assets/img/hipercard.png" alt="formas-pagamento">
+                    <img src="../assets/img/elo.png" alt="formas-pagamento">
+                </div>
+            </div>
+
+            <div id="siga-nos">
+                <h3 class="footer-titulo">Siga-nos</h3>
+                <div class="redes-sociais">
+                    <img src="../assets/img/instagram.png" alt="Instagram">
+                    <p>Instagram</p>
+                </div>
+                <div class="redes-sociais">
+                    <img src="../assets/img/twitter.png" alt="Twitter">
+                    <p>Twitter</p>
+                </div>
+                <div class="redes-sociais">
+                    <img src="../assets/img/facebook.png" alt="Facebook">
+                    <p>Facebook</p>
+                </div>
+                <div class="redes-sociais">
+                    <img src="../assets/img/youtube.png" alt="YouTube">
+                    <p>YouTube</p>
+                </div>
+                <div class="redes-sociais">
+                    <img src="../assets/img/linkedin.png" alt="LinkedIn">
+                    <p>Linkedin</p>
+                </div>
+            </div>
+
+            <div id="atendimento">
+                <h3 class="footer-titulo">Atendimento ao Cliente</h3>
+                <div>
+                    <img src="../assets/img/qr-code.png" alt="qr-code">
+                </div>
+                <div>
+                    <img src="../assets/img/contato.jpg" alt="qr-code">
+                </div>
+            </div>
+
+        </section>
+
+        <hr>
+        <p id="direitos">© 2023 Xhopii. Todos os direitos acadêmicos reservados</p>
+    </footer>
+</body>
+</html>
