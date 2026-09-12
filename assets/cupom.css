@@ -1,0 +1,61 @@
+main{
+    background-color: #BFBFBF;
+    padding: 30px;
+    height: 450px;
+}
+
+main h1{
+    text-align: center;
+    color: #444;
+    font-size: 24px;
+}
+
+.card{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-conteudo{
+    background-color: white;
+    border: 1px dashed #EE4D2D;
+    border-radius: 6px;
+    padding: 18px;
+    width: 250px;
+}
+
+.card-conteudo h3{
+    color: #EE4D2D;
+    padding-bottom: 5px;
+}
+
+.card-conteudo p{
+    padding-top: 5px;
+    font-size: 13px;
+    color: #666;
+}
+
+button{
+    margin-top: 20px;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.editar{
+    background-color: #F37023;
+    color: white;
+}
+
+#cadastrar-cupom{
+    display: block;
+    margin: 40px auto 0;
+    width: fit-content;
+    background-color: #EE4D2D;
+    text-decoration: none;
+    padding: 13px;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
