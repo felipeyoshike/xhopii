@@ -1,8 +1,4 @@
-main{
-    background-color: #BFBFBF;
-    padding: 30px;
-    height: 450px;
-}
+
 
 main h1{
     text-align: center;
@@ -12,8 +8,10 @@ main h1{
 
 .card{
     margin: 20px;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    gap: 30px;
+    justify-content: center;
 }
 
 .card-conteudo h3{

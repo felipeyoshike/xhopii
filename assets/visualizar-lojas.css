@@ -6,6 +6,11 @@
     color: #EE4D2D;
 }
 
+main{
+    background-color: #BFBFBF;
+    padding: 30px;
+    height: 630px;
+}
 
 .card-conteudo{
     background-color: white;
